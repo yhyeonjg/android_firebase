@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/connectButton"
+        android:title="라즈베리파이 연결"
+        android:icon="@android:drawable/ic_menu_gallery"/>
+
+    <item
+        android:id="@+id/checkVideo"
+        android:title="비디오 확인"
+        android:icon="@android:drawable/ic_menu_gallery"/>
+
+    <item
+        android:id="@+id/report"
+        android:title="쓰레기 무단투기 신고"
+        android:icon="@android:drawable/ic_menu_gallery"/>
+
+    <item
+        android:id="@+id/logoutButton"
+        android:title="로그아웃"
+        android:icon="@android:drawable/ic_menu_gallery"/>
+
+    <item android:title="Raspberry IP">
+        <menu>
+            <item android:id="@+id/rbpiItem"
+                android:title="@+id/ip"/>
+        </menu>
+    </item>
+</menu>
